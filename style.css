@@ -1,0 +1,41 @@
+﻿html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-size: 16;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 0 40px;
+  text-align: center;
+}
+
+/* меню*/
+.navbar {
+  background: black;
+  width: 100%;
+
+}
+
+.nav-link:hover {
+  background: #f4f4f4;
+  color: black;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 30px;
+  color: #f4f4f4;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+iframe {
+  margin: 0 auto;
+  width: 100%;
+}
